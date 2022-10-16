@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+void balok(void);
+void luas_permukaan_balok(void);
+void volume_balok(void);
+void kecepatan(void);
+void menghitung_kecepatan(void);
+
+int main(void){
+	luas_permukaan_balok();
+	volume_balok();
+	menghitung_kecepatan();
+	return 0;
+}
+
+void luas_permukaan_balok(){
+	printf("Diketahui panjang balok 12 cm, lebar balok 8 cm, dan tinggi balok 4 cm\n");
+	printf("Dengan rumus Luas Permukaan Balok = (2*(panjang*lebar)+(panjang*tinggi)+(lebar*tinggi)\n");
+	printf("Maka, luas permukaan balok anda adalah 272  cm2\n\n");
+}
+
+void volume_balok(){
+	printf("Diketahui panjang balok 12 cm, lebar balok 8 cm, dan tinggi balok 4 cm\n");
+	printf("Dengan rumus Volume Balok = (panjang*lebar*tinggi)\n");
+	printf("Maka, volume balok anda adalah 384  cm3\n\n");
+}
+
+void menghitung_kecepatan(){
+	printf("Jika jarak_tempuh anda sejauh 10 km, dengan waktu_tempuh selama 2 jam\n");
+	printf("Dengan rumus Kecepatan = (jarak_tempuh/waktu_tempuh)\n\n");
+	printf("Maka, kecepatan yang anda tempuh adalah 5 km/jam\n");
+	
+	return 0;
+}
